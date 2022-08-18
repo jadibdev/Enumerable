@@ -1,9 +1,10 @@
-require_relative 'MyEnumerable'
+require_relative 'my_enumerable'
 
+# list class
 class MyList
-include Enumerable
+  include Enumerable
   def initialize(*list)
-    @list = list 
+    @list = list
   end
 
   def each(&block)

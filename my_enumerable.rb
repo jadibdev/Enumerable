@@ -1,3 +1,4 @@
+# enumerable file
 module MyEnumerable
   def all?
     result = true
